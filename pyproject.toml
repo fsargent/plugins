@@ -8,4 +8,4 @@ authors = ["Eli Schleifer <eli@trunk.io>"]
 name = "test"
 description = "poetry test"
 version = "0.1.0"
-authors = ["Eli Schleifer <eli@trunk.io>"]
+authors = ["Eli Schleifer <eli@trunk.io>", "Other <other@trunk.io>"]
