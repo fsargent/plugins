@@ -94,6 +94,9 @@ actions:
       shell: bash
 
   enabled:
+    - poetry-check
+    - poetry-lock
+    - poetry-export
     - remove-release-snapshots
     - repo-tests
     - linter-test-helper

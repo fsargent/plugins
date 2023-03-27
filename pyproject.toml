@@ -1,0 +1,11 @@
+[project]
+name = "test"
+description = "poetry test"
+version = "0.1.0"
+authors = ["Eli Schleifer <eli@trunk.io>"]
+
+[tool.poetry]
+name = "test"
+description = "poetry test"
+version = "0.1.0"
+authors = ["Eli Schleifer <eli@trunk.io>"]
