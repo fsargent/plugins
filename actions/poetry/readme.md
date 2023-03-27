@@ -1,3 +1,3 @@
-# go-mod-tidy-vendor
+# poetry
 
-Run `go mod tidy` followed by `go mod vendor` whenever go.mod file is modified
+Must have poetry available in PATH to run
