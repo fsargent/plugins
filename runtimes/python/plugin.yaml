@@ -49,7 +49,9 @@ runtimes:
           optional: true
       linter_environment:
         - name: PATH
-          list: ["${linter}/bin"]
+          list:
+            - "${linter}/bin"
+            - "${linter}/Scripts" # Windows places binaries here instead of bin/
         - name: VIRTUAL_ENV
           value: ${linter}
       known_good_version: 3.10.8
