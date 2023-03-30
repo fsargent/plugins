@@ -28,7 +28,10 @@ runtimes:
         - name: HOME
           value: ${home}
         - name: PATH
-          list: ["${runtime}/bin", "${env.PATH}"]
+          list:
+            - "${runtime}/bin"
+            - "${runtime}" # Windows places binaries here instead of bin/
+            - "${env.PATH}"
       linter_environment:
         - name: PATH
           list: ["${linter}/node_modules/.bin"]
