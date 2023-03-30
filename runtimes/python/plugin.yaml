@@ -32,7 +32,10 @@ runtimes:
         - name: HOME
           value: ${home}
         - name: PATH
-          list: ["${runtime}/bin"]
+          list:
+          - "${runtime}" # Windows places binaries here instead of bin/
+          - "${runtime}/bin"
+
       linter_environment:
         - name: PATH
           list: ["${linter}/bin"]
