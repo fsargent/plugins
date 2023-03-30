@@ -35,7 +35,10 @@ runtimes:
           list:
            - "${runtime}/bin"
            - "${runtime}" # Windows places binaries here instead of bin/
-           - ${env.SYSTEMROOT} # Needed for windows
+        # Needed for windows
+        - name : SYSTEMROOT
+          value: ${env.SYSTEMROOT}
+          optional: true
       linter_environment:
         - name: PATH
           list: ["${linter}/bin"]
