@@ -39,6 +39,8 @@ runtimes:
         - name : SYSTEMROOT
           value: ${env.SYSTEMROOT}
           optional: true
+        - name : BLAH
+          value: 123
       linter_environment:
         - name: PATH
           list: ["${linter}/bin"]
