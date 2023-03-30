@@ -21,7 +21,7 @@ downloads:
           macos: apple-darwin
           windows: pc-windows-msvc
         version: <=3.11.1
-        url: https://github.com/indygreg/python-build-standalone/releases/download/20230116/cpython-${version}+20230116-x86_64-${os}-install_only.tar.gz
+        url: https://github.com/indygreg/python-build-standalone/releases/download/20230116/cpython-${version}+20230116-x86_64-${os}-install_only.zip
         strip_components: 1
 
 runtimes:

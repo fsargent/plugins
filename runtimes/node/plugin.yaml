@@ -17,7 +17,7 @@ downloads:
         strip_components: 1
       - os: windows
         cpu: x86_64
-        url: https://nodejs.org/dist/v${version}/node-v${version}-win-x64.tar.gz
+        url: https://nodejs.org/dist/v${version}/node-v${version}-win-x64.zip
         strip_components: 1
 
 runtimes:
