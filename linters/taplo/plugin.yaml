@@ -19,6 +19,7 @@ lint:
           cpu: arm_64
           version: ">=0.8.0"
           url: https://github.com/tamasfe/taplo/releases/download/${semver}/taplo-darwin-aarch64.gz
+        # DONOTLAND: This appears to crash
         - os: windows
           cpu: x86_64
           version: ">=0.8.0"

@@ -16,7 +16,7 @@ lint:
           cpu:
             x86_64: amd64
             arm_64: arm64
-          url: https://github.com/aquasecurity/tfsec/releases/download/v${version}/tfsec-${os}-${cpu}.exe
+          url: https://github.com/aquasecurity/tfsec/releases/download/v${version}/tfsec-windows-${cpu}.exe
 
   definitions:
     - name: tfsec

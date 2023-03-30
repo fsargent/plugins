@@ -1,6 +1,7 @@
 version: 0.1
 lint:
   downloads:
+    # DONOTLAND: How does this work without executable: true?
     - name: kube-linter
       version: 0.5.0
       downloads:
@@ -13,7 +14,8 @@ lint:
             linux: linux
             macos: darwin
           url: https://github.com/stackrox/kube-linter/releases/download/v${version}/kube-linter-${os}
-
+        - os: windows
+          url: https://github.com/stackrox/kube-linter/releases/download/v${version}/kube-linter.exe
   definitions:
     - name: kube-linter
       download: kube-linter
